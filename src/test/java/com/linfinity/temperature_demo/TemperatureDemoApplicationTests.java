@@ -35,7 +35,7 @@ class TemperatureDemoApplicationTests {
     @Test
     public void getMatchCodeTemperature(){
         try {
-            Optional<Integer> op = this.temperatureServiceI.getTemperatureByLocalCode("10119","04","122324");
+            Optional<Integer> op = this.temperatureServiceI.getTemperatureByLocalCode("测试","测试23","122324");
             logger.info("获取当前地区的温度：{}",op.get());
         }catch (Exception e){
             logger.error("获取该地区温度异常，{}",e.getMessage());
