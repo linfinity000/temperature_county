@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+REST:
+  # 前缀地址
+  PRE_URL: http://www.weather.com.cn/data/sk/
+  SUFF_URL: .html
+  ALL_PROVINCE: http://www.weather.com.cn/data/city3jdata/china.html
+  ASSIGN_CITY: http://www.weather.com.cn/data/city3jdata/provshi/
+  ASSIGN_COUNTY: http://www.weather.com.cn/data/city3jdata/station/
