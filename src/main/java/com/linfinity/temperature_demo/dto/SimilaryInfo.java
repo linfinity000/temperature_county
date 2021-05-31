@@ -13,7 +13,13 @@ import java.io.Serializable;
 @ToString
 public class SimilaryInfo implements Serializable {
 
+    /**
+     * 相似度得分
+     */
     private double score;
 
+    /**
+     * 地区编码（省、市、区）
+     */
     private String code;
 }
